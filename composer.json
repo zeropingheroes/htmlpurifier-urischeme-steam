@@ -1,0 +1,19 @@
+{
+    "name": "zeropingheroes/htmlpurifier-urischeme-steam",
+    "description": "HTMLPurifier URI scheme validator for steam:// links for interacting with Valve's Steam application",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Olly Baker",
+            "email": "ilumos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ezyang/htmlpurifier": "4.6.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "stable"
+}
